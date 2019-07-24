@@ -27,6 +27,6 @@ function BoardMember (name, homeState, training) {
   this.training = training;
 }
 
-BoardMember.prototype.sayHi = function () {
+BoardMember.prototype.veto = function () {
   return 'No, I must disagree'
 }

@@ -28,5 +28,5 @@ function BoardMember (name, homeState, training) {
 }
 
 BoardMember.prototype.sayHi = function () {
-  
+  return 'No, I must disagree'
 }
